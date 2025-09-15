@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lucy Martin - Projects</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <h1>Lucy Martin</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Projects Section -->
+  <div class="projects">
+    <h2>My Projects</h2>
+    <div class="video-grid">
+      
+      <div class="video-card" onclick="openProject('portfolio')">
+        <video src="videos/portfolio.mp4" muted playsinline></video>
+        <h3>Portfolio Website</h3>
+      </div>
+      
+      <div class="video-card" onclick="openProject('bookclub')">
+        <video src="videos/bookclub.mp4" muted playsinline></video>
+        <h3>Book Club App</h3>
+      </div>
+      
+      <div class="video-card" onclick="openProject('ecommerce')">
+        <video src="videos/ecommerce.mp4" muted playsinline></video>
+        <h3>E-Commerce Store</h3>
+      </div>
+      
+      <div class="video-card" onclick="openProject('webscraping')">
+        <video src="videos/webscraping.mp4" muted playsinline></video>
+        <h3>Web Scraping</h3>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Lucy Martin | All Rights Reserved
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
