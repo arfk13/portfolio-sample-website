@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lucy Martin - Portfolio</title>
+  <link rel="stylesheet" href="stylee.css">
+  <script defer src="scripts.js"></script>
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h2 class="logo">Lucy Martin</h2>
+    <ul>
+      <li><a href="index.html">🏠 Home</a></li>
+      <li><a href="about.html">ℹ️ About Me</a></li>
+      <li><a href="projects.html" target="_blank">📂 Projects</a></li>
+      <li><a href="resume.html" target="_blank">📑 Resume</a></li>
+      <li><a href="contact.html">📧 Contact</a></li>
+    </ul>
+  </aside>
+
+  <!-- Main Content -->
+  <div class="main-content">
+
+    <!-- Search Bar -->
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search here...">
+      <button onclick="searchContent()">🔍</button>
+    </div>
+
+    <!-- Video Section -->
+    <section class="video-section">
+      <video controls>
+        <source src="videos/introo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <!-- 🎥 Video Title -->
+      <h2 class="video-title">Lucy Martin Portfolio | Web Developer | 24-hours available</h2>
+    </section>
+
+    <!-- Intro Section (Styled like description) -->
+    <section class="intro-section" id="about">
+      <h1>👋 Hi, I’m <span class="highlight">Lucy Martin</span></h1>
+      <p class="tagline">A passionate Web Developer who turns ideas into clean, responsive, and user-friendly websites.</p>
+      <p class="details">
+        I specialize in <strong>HTML, CSS, JavaScript, and PHP</strong> with growing expertise in modern frameworks and backend integration.  
+        My goal is to craft websites that are not just visually appealing but also <span class="highlight">efficient, scalable, and accessible</span> to everyone.
+      </p>
+    </section>
+
+    <!-- Language Icons -->
+    <section class="skills">
+      <h2>Tech Stack</h2>
+      <div class="icons">
+        <img src="icons/html.png" alt="HTML">
+        <img src="icons/css.png" alt="CSS">
+        <img src="icons/js.png" alt="JavaScript">
+        <img src="icons/php.png" alt="PHP">
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      © 2025 Lucy Martin | All Rights Reserved
+    </footer>
+  </div>
+
+</body>
+</html>
